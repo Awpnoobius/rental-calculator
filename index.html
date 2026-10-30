@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rental Property Calculator</title>
+<meta name="description" content="A Chrome extension that shows cash flow, cap rate and cash-on-cash return right on Zillow and Redfin listings.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="./"><img src="icon.png" alt="">Rental Property Calculator</a>
+    <nav><a href="#pricing">Pricing</a><a href="terms.html">Terms</a><a href="privacy-policy.html">Privacy</a></nav>
+  </header>
+
+  <main>
+    <h1>Know if a rental makes money before you call the agent.</h1>
+    <p class="lead">A Chrome extension that shows cash flow, cap rate and cash-on-cash return right on Zillow and Redfin listings.</p>
+    <span class="button soon">Coming soon to the Chrome Web Store</span>
+    <img class="shot" src="screenshot-1-calculator.png" width="1280" height="800"
+      alt="The calculator panel on a home listing, showing monthly cash flow, cash-on-cash return and cap rate.">
+
+    <h2>How it works</h2>
+    <div class="grid">
+      <div class="card"><h3>Reads the listing</h3><p class="muted">Price, rent estimate and HOA fee are filled in from the page you're looking at.</p></div>
+      <div class="card"><h3>Uses your numbers</h3><p class="muted">Set your down payment, interest rate, taxes, insurance, vacancy and repairs once. Every number can be edited.</p></div>
+      <div class="card"><h3>Stays on your computer</h3><p class="muted">The calculations run in your browser. Your listings and saved deals are never sent anywhere.</p></div>
+    </div>
+
+    <h2 id="pricing">Pricing</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Free</h3>
+        <p class="price">$0</p>
+        <ul>
+          <li>Calculator panel on Zillow and Redfin listings</li>
+          <li>Cash flow, cap rate, cash-on-cash return, mortgage and cash needed</li>
+          <li>Your assumptions saved and synced across your Chrome browsers</li>
+        </ul>
+      </div>
+      <div class="card pro">
+        <h3>Pro</h3>
+        <p class="price">$9.99 <span>/ month (USD)</span></p>
+        <ul>
+          <li>Everything in Free</li>
+          <li>Save deals to a dashboard</li>
+          <li>Compare deals side by side</li>
+          <li>5- and 10-year projections: value, equity, cash flow, profit and return</li>
+          <li>Export to CSV, or print and save as PDF</li>
+          <li>Works on Realtor.com listings too</li>
+          <li>Named sets of assumptions, such as "cash purchase" or "20% down"</li>
+        </ul>
+        <p class="muted">Upgrade from the extension's panel or dashboard.</p>
+      </div>
+    </div>
+    <img class="shot" src="screenshot-2-dashboard.png" width="1280" height="800"
+      alt="The Pro dashboard listing saved deals with cash flow and 5- and 10-year returns, and two deals compared side by side.">
+
+    <h2 id="billing">Billing and cancellation</h2>
+    <div class="narrow">
+      <p>Pro is billed monthly. Payments are processed securely by Stripe through ExtensionPay; the extension never sees your card details. Your subscription renews automatically each month until you cancel.</p>
+      <p>You can cancel any time with <strong>Manage subscription</strong> on the extension's dashboard, or by emailing us. Pro stays active until the end of the month you've already paid for, then the extension goes back to the free version.</p>
+      <p><strong>No refunds.</strong> Payments are non-refundable, including for partly used months, except where the law requires a refund. Full details are in the <a href="terms.html">Terms of Service</a>.</p>
+    </div>
+
+    <h2 id="contact">Contact</h2>
+    <p class="narrow">Questions, billing help or cancellations: <a href="mailto:Awpnoobius@gmail.com">Awpnoobius@gmail.com</a></p>
+  </main>
+
+  <footer>
+    <p>© 2026 Rental Property Calculator · <a href="terms.html">Terms of Service</a> · <a href="privacy-policy.html">Privacy Policy</a></p>
+    <p>Estimates only, not financial advice. Not affiliated with, endorsed by or sponsored by Zillow, Redfin or Realtor.com.</p>
+  </footer>
+</div>
+</body>
+</html>

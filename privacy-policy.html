@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy – Rental Property Calculator</title>
+<link rel="icon" href="icon.png">
 <style>
   :root { --bg: #fff; --fg: #1a1a1a; --muted: #555; --accent: #13803b; }
   @media (prefers-color-scheme: dark) { :root { --bg: #161616; --fg: #eee; --muted: #aaa; --accent: #5fd27f; } }
@@ -16,10 +17,11 @@
 </style>
 </head>
 <body>
+<p><a href="./">← Rental Property Calculator</a></p>
 <h1>Privacy Policy</h1>
-<p class="date">Rental Property Calculator (Chrome extension) · Effective October 21, 2026</p>
+<p class="date">Rental Property Calculator (Chrome extension) · Effective October 31, 2026</p>
 
-<p>This policy explains what the Rental Property Calculator extension ("the extension") does with your information. In short, <strong>the extension does not collect, sell or share any of your data.</strong> Everything happens inside your own browser.</p>
+<p>This policy explains what the Rental Property Calculator extension ("the extension") does with your information. In short, <strong>the extension does not collect, sell or share your listings, saved deals or browsing.</strong> The calculator runs inside your own browser. The only outside service it talks to is ExtensionPay, which handles Pro subscriptions (see "Payments" below).</p>
 
 <h2>What the extension reads</h2>
 <p>When you open a home listing on <strong>zillow.com</strong>, <strong>redfin.com</strong> or <strong>realtor.com</strong>, the extension reads the listing's price, rent estimate and HOA fee from the page. It uses these numbers only to calculate the results shown in its panel. This happens entirely on your device. The extension does not run on any other websites.</p>
@@ -29,22 +31,28 @@
 <p>If you click <strong>Save deal</strong>, the extension stores that listing's address, link and numbers on your device only (it is not synced). You can delete saved deals at any time from the dashboard. CSV and PDF exports are files created on your own device.</p>
 <p>The extension does not store listings you have not saved, your browsing history, or any personal information.</p>
 
+<h2>Payments (Pro)</h2>
+<p>Pro is a monthly subscription sold through <a href="https://extensionpay.com">ExtensionPay</a>, with card payments processed by <a href="https://stripe.com">Stripe</a>. You enter your email and card details on their pages, never in the extension, and the extension never sees your card details. The developer can see the email you paid with and the status of your subscription. ExtensionPay and Stripe handle your payment information under their own privacy policies.</p>
+<p>When installed, the extension gets a random ID from extensionpay.com. It sends that ID to extensionpay.com from time to time to check whether Pro is active, including for people who have not paid. No listing data, saved deals or browsing information is sent.</p>
+<p>You can cancel at any time with <strong>Manage subscription</strong> on the extension's dashboard.</p>
+
 <h2>What the extension does not do</h2>
 <ul>
-  <li>It does not send any data to the developer or to any other server.</li>
+  <li>It does not send your listings, saved deals, assumptions or browsing to the developer or to any server.</li>
   <li>It does not use analytics, tracking, cookies or advertising.</li>
-  <li>It does not collect your name, email, location or any other personal information.</li>
+  <li>It does not collect your name, location or any other personal information. Only Pro subscribers give an email address, to ExtensionPay.</li>
   <li>It does not sell or transfer data to anyone.</li>
 </ul>
 
 <h2>Permissions</h2>
 <ul>
-  <li><strong>Storage:</strong> saves your calculator assumptions and saved deals, as described above.</li>
+  <li><strong>Storage:</strong> saves your calculator assumptions, saved deals and whether Pro is active, as described above.</li>
   <li><strong>Access to zillow.com, redfin.com and realtor.com:</strong> reads listing numbers and shows the calculator panel on those pages.</li>
+  <li><strong>Access to extensionpay.com:</strong> lets the extension notice when you finish paying or log in, so Pro turns on straight away.</li>
 </ul>
 
 <h2>Removing your data</h2>
-<p>Uninstalling the extension deletes its saved settings and saved deals from your browser.</p>
+<p>Uninstalling the extension deletes its saved settings and saved deals from your browser. Uninstalling does not cancel a subscription, so cancel first with <strong>Manage subscription</strong>, or ask the developer by email. To have your payment records deleted, contact the developer; ExtensionPay and Stripe may keep some records where the law requires it.</p>
 
 <h2>Not financial advice</h2>
 <p>The calculator gives estimates based on the numbers you provide or that appear on the listing. It is not financial, investment or tax advice. Always verify figures before making a decision.</p>
